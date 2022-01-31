@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4EDF7F27A6E0CA0050DAE3 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDF7E27A6E0CA0050DAE3 /* SignIn.swift */; };
+		FA4EDF8127A6E1570050DAE3 /* SignIN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4EDF8027A6E1570050DAE3 /* SignIN.storyboard */; };
+		FA4EDF8327A6E1670050DAE3 /* SignUP.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4EDF8227A6E1670050DAE3 /* SignUP.storyboard */; };
+		FA4EDF8727A6E2C90050DAE3 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4EDF8627A6E2C90050DAE3 /* test.storyboard */; };
+		FA4EDF8927A6E4270050DAE3 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4EDF8827A6E4270050DAE3 /* Result.storyboard */; };
 		FAD9E0E4279A9CF700C03F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9E0E3279A9CF700C03F3D /* AppDelegate.swift */; };
 		FAD9E0E6279A9CF700C03F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9E0E5279A9CF700C03F3D /* SceneDelegate.swift */; };
-		FAD9E0E8279A9CF700C03F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9E0E7279A9CF700C03F3D /* ViewController.swift */; };
+		FAD9E0E8279A9CF700C03F3D /* ViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9E0E7279A9CF700C03F3D /* ViewApp.swift */; };
 		FAD9E0EB279A9CF700C03F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9E0E9279A9CF700C03F3D /* Main.storyboard */; };
 		FAD9E0ED279A9CFD00C03F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD9E0EC279A9CFD00C03F3D /* Assets.xcassets */; };
 		FAD9E0F0279A9CFD00C03F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD9E0EE279A9CFD00C03F3D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4EDF7E27A6E0CA0050DAE3 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		FA4EDF8027A6E1570050DAE3 /* SignIN.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIN.storyboard; sourceTree = "<group>"; };
+		FA4EDF8227A6E1670050DAE3 /* SignUP.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUP.storyboard; sourceTree = "<group>"; };
+		FA4EDF8627A6E2C90050DAE3 /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		FA4EDF8827A6E4270050DAE3 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
 		FAD9E0E0279A9CF700C03F3D /* HomeTask10TB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTask10TB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9E0E3279A9CF700C03F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD9E0E5279A9CF700C03F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAD9E0E7279A9CF700C03F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAD9E0EA279A9CF700C03F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD9E0E7279A9CF700C03F3D /* ViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewApp.swift; sourceTree = "<group>"; };
+		FAD9E0EA279A9CF700C03F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SignIN.storyboard; sourceTree = "<group>"; };
 		FAD9E0EC279A9CFD00C03F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD9E0EF279A9CFD00C03F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD9E0F1279A9CFD00C03F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,13 +66,18 @@
 		FAD9E0E2279A9CF700C03F3D /* HomeTask10TB */ = {
 			isa = PBXGroup;
 			children = (
+				FA4EDF8227A6E1670050DAE3 /* SignUP.storyboard */,
+				FA4EDF8027A6E1570050DAE3 /* SignIN.storyboard */,
 				FAD9E0E3279A9CF700C03F3D /* AppDelegate.swift */,
 				FAD9E0E5279A9CF700C03F3D /* SceneDelegate.swift */,
-				FAD9E0E7279A9CF700C03F3D /* ViewController.swift */,
+				FA4EDF7E27A6E0CA0050DAE3 /* SignIn.swift */,
+				FAD9E0E7279A9CF700C03F3D /* ViewApp.swift */,
 				FAD9E0E9279A9CF700C03F3D /* Main.storyboard */,
+				FA4EDF8827A6E4270050DAE3 /* Result.storyboard */,
 				FAD9E0EC279A9CFD00C03F3D /* Assets.xcassets */,
 				FAD9E0EE279A9CFD00C03F3D /* LaunchScreen.storyboard */,
 				FAD9E0F1279A9CFD00C03F3D /* Info.plist */,
+				FA4EDF8627A6E2C90050DAE3 /* test.storyboard */,
 			);
 			path = HomeTask10TB;
 			sourceTree = "<group>";
@@ -125,8 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4EDF8927A6E4270050DAE3 /* Result.storyboard in Resources */,
+				FA4EDF8127A6E1570050DAE3 /* SignIN.storyboard in Resources */,
+				FA4EDF8327A6E1670050DAE3 /* SignUP.storyboard in Resources */,
 				FAD9E0F0279A9CFD00C03F3D /* LaunchScreen.storyboard in Resources */,
 				FAD9E0ED279A9CFD00C03F3D /* Assets.xcassets in Resources */,
+				FA4EDF8727A6E2C90050DAE3 /* test.storyboard in Resources */,
 				FAD9E0EB279A9CF700C03F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD9E0E8279A9CF700C03F3D /* ViewController.swift in Sources */,
+				FAD9E0E8279A9CF700C03F3D /* ViewApp.swift in Sources */,
 				FAD9E0E4279A9CF700C03F3D /* AppDelegate.swift in Sources */,
 				FAD9E0E6279A9CF700C03F3D /* SceneDelegate.swift in Sources */,
+				FA4EDF7F27A6E0CA0050DAE3 /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
